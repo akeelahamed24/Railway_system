@@ -1,0 +1,476 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.header {
+    background: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 5px; /* Decrease the header padding */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px; /* Increase the logo font size */
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px; /* Increase the logo size */
+    margin-right: 10px;
+}
+
+.company-name {
+    font-size: 20px;
+}
+
+.container {
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 60px;
+}
+
+h2 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.register-text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.register-text a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+
+/*Register*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.header {
+    background: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.company-name {
+    font-size: 20px;
+}
+
+.container {
+    width: 80%; /* Reduced the width */
+    max-height: 80vh; /* Added max-height to limit the height */
+    overflow-y: auto; /* Added overflow-y to enable vertical scrolling */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Added padding value */
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 20px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px); /* Adjusted the width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin: 0 5px;
+}
+
+select {
+    width: calc(100% - 20px); /* Adjusted the width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: calc(100% - 20px); /* Adjusted the width */
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/*Signup*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.header {
+    background: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.company-name {
+    font-size: 20px;
+}
+
+.container {
+    width: 80%;
+    background: #fff;
+    padding: 20px;
+    max-width: 1200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    text-align: left;
+}
+
+h2 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#generatePassengerId {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#generatePassengerId:hover {
+    background-color: #0056b3;
+}
+
+/*homepage*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.header {
+    background: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.company-name {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #666;
+}
+
+
+
+/* Your existing CSS styles */
+
+/* Additional styles for reservation page */
+.train {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.train:hover {
+    background-color: #f0f0f0;
+}
+
+.seat-selection {
+    display: none;
+    margin-top: 20px;
+    padding: 50px;
+    border: 1px solid #ccc;
+}
+
+.seat-selection table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.seat-selection th,
+.seat-selection td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.seat-selection th {
+    background-color: #f0f0f0;
+}
+
+/* Your existing CSS styles */
+
+body {
+    overflow-y: scroll; /* Allow vertical scrolling */
+}
+
+/* Additional styles for seat selection */
+.seat-selection {
+    display: none;
+    padding: 20px;
+    overflow-x: auto; /* Allow horizontal scrolling if necessary */
+}
+
+.seat-selection table {
+    border-collapse: collapse;
+}
+
+.seat-selection td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+
+.seat-selection .selected {
+    background-color: #007bff;
+    color: white;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Railway Reservation - Book Tickets</title>
+</head>
+<body>
+    <header class="header">
+        <a href="home_page.html" class="logo">
+            <img src="logo.png" alt="Railway Logo">
+            <span class="company-name">RAILWAYS</span>
+        </a>
+        <h1>Available Trains</h1>
+    </header>
+    <div class="container">
+        <div class="train" onclick="showSeats('train1')">
+            <h2>Train 1: Chennai to Mumbai</h2>
+            <p>Available Seats: 50</p>
+        </div>
+        <div class="train" onclick="showSeats('train2')">
+            <h2>Train 2: Mumbai to Bangalore</h2>
+            <p>Available Seats: 40</p>
+        </div>
+        <div class="train" onclick="showSeats('train3')">
+            <h2>Train 3: Bangalore to Chennai</h2>
+            <p>Available Seats: 60</p>
+        </div>
+    </div>
+    <div class="seat-selection" id="seatSelection">
+        <!-- Seats for selected train will be shown here -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

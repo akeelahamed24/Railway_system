@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Railway Reservation System - Sign Up</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="logo.png" alt="Railway Logo">
+            <span class="company-name">RAILWAYS</span>
+        </a>
+        <h1>Sign Up</h1>
+    </header>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form action="home_page.html" method="POST">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            <div class="input-group">
+                <label for="passengerId">Passenger ID</label>
+                <input type="text" id="passengerId" name="passengerId" readonly>
+                <button type="button" id="generatePassengerId">Generate Passenger ID</button>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
